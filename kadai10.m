@@ -3,7 +3,7 @@
 % 各自，Lenna以外の画像を用いよ． 
 % 例
 
-ORG = imread('Lenna.jpg'); % 原画像の入力
+ORG = imread('http://farm3.static.flickr.com/2472/4521343317_9bc3fe6e90_b.jpg'); % 原画像の入力
 ORG = rgb2gray(ORG); %カラーからグレイへの変換
 imagesc(ORG); colormap('gray'); colorbar;% 画像表示
 pause; % 一時停止
