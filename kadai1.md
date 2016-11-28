@@ -2,7 +2,7 @@
 
 標準画像「Lenna」を原画像とする．この画像は縦512画像，横512画素による正方形のディジタルカラー画像である．
 
-ORG=imread('http://farm3.static.flickr.com/2472/4521343317_9bc3fe6e90_b.jpg'); % 原画像の入力  
+ORG=imread('Lenna.png'); % 原画像の入力  
 imagesc(ORG); axis image; % 画像の表示
 
 によって，原画像を読み込み，表示した結果を図１に示す．
