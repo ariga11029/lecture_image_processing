@@ -11,12 +11,8 @@ imagesc(ORG); axis image; % 画像の表示
 結果を図2に示す．
 
 ![原画像](https://github.com/ariga11029/lecture_image_processing/blob/master/image/0-1.jpg?raw=true)  
-図2 グレースケールに変換した原画像
+図2 2階調画像
 
-
-グレースケール画像は8ビットの画像であり，濃淡を2の8乗，つまり256階調で表している．  
-これを2階調の画像にするには，256階調に対し基準となる値を設けることで階調を2つに分ければ良い．  
-今回は128を境に分けている．  
 2階調画像の生成は次のように行う．
 
 IMG = ORG>128;
@@ -25,5 +21,10 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 結果を図3に示す．
 
 ![原画像](https://github.com/ariga11029/lecture_image_processing/blob/master/image/0-2.jpg?raw=true)  
-図3 2階調画像
-同様に
+図3 4階調画像
+
+
+4階調画像の生成は次のように行う．
+
+![原画像](https://github.com/ariga11029/lecture_image_processing/blob/master/image/0-3.jpg?raw=true)  
+図4 8階調画像
