@@ -14,11 +14,6 @@ imagesc(ORG); colormap(gray); colorbar;  axis image; % 画像の表示
 
 以下のようしてダイナミックレンジを0から255にする。
 
-mn = min(ORG(:)); % 濃度値の最小値を算出
-mx = max(ORG(:)); % 濃度値の最大値を算出
-ORG = (ORG-mn)/(mx-mn)*255;
-imagesc(ORG); colormap(gray); colorbar;  axis image; % 画像の表示
-
 ![画像](https://github.com/ariga11029/lecture_image_processing/blob/master/image/7-3.jpg?raw=true) 
 図3 実行結果
 
