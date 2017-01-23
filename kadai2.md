@@ -4,11 +4,14 @@
 ORG=imread(0.jpg); % 原画像の入力  
 ORG = rgb2gray(ORG); colormap(gray); colorbar; % グレースケール画像へ変換  
 imagesc(ORG); axis image; % 画像の表示  
+原画像を読み込み，表示した結果を図１に示す．
 
-結果を図1に示す．
+![原画像](https://github.com/ariga11029/lecture_image_processing/blob/master/image/0.jpg?raw=true)  
+図1 原画像
+結果を図2に示す．
 
 ![原画像](https://github.com/ariga11029/lecture_image_processing/blob/master/image/0-1.jpg?raw=true)  
-図1 グレースケールに変換した原画像
+図2 グレースケールに変換した原画像
 
 
 グレースケール画像は8ビットの画像であり，濃淡を2の8乗，つまり256階調で表している．  
@@ -19,8 +22,8 @@ imagesc(ORG); axis image; % 画像の表示
 IMG = ORG>128;
 imagesc(IMG); colormap(gray); colorbar;  axis image;
 
-結果を図2に示す．
+結果を図3に示す．
 
-![原画像](https://github.com/ariga11029/lecture_image_processing/image/0-2.jpg?raw=true)  
-図2 2階調画像
+![原画像](https://github.com/ariga11029/lecture_image_processing/blob/master/image/0-2.jpg?raw=true)  
+図3 2階調画像
 同様に
