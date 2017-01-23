@@ -7,7 +7,7 @@ imagesc(ORG); axis image; % 画像の表示
 
 結果を図1に示す．
 
-![原画像](https://github.com/ariga11029/lecture_image_processing/image/0-1.jpg?raw=true)  
+![原画像](https://github.com/ariga11029/lecture_image_processing/blob/master/image/0-1.jpg?raw=true)  
 図1 グレースケールに変換した原画像
 
 
