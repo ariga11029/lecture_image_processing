@@ -1,4 +1,4 @@
-ORG = imread('A.jpg'); % 画像の読み込み
+ORG = imread('0.jpg'); % 画像の読み込み
 ORG = rgb2gray(ORG); % グレースケールに変換
 imagesc(ORG); colormap(gray); colorbar;  axis image; % 画像の表示
 
