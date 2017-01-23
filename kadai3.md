@@ -14,17 +14,17 @@ imagesc(IMG); colormap(gray); colorbar;  axis image;
 ````
 
 閾値64とした場合。  
-!(https://github.com/ariga11029/lecture_image_processing/blob/master/image/3-2.jpg?raw=true)
+![画像](https://github.com/ariga11029/lecture_image_processing/blob/master/image/3-2.jpg?raw=true)
 図2 閾値64
 
 閾値96とした場合。  
-!(https://github.com/ariga11029/lecture_image_processing/blob/master/image/3-3.jpg?raw=true)
+![画像](https://github.com/ariga11029/lecture_image_processing/blob/master/image/3-3.jpg?raw=true)
 図3 閾値96
 
 閾値128とした場合。  
-!(https://github.com/ariga11029/lecture_image_processing/blob/master/image/3-4.jpg?raw=true)
+![画像](https://github.com/ariga11029/lecture_image_processing/blob/master/image/3-4.jpg?raw=true)
 図4 閾値128
 
 閾値192とした場合。  
-!(https://github.com/ariga11029/lecture_image_processing/blob/master/image/3-5.jpg?raw=true)
+![画像](https://github.com/ariga11029/lecture_image_processing/blob/master/image/3-5.jpg?raw=true)
 図5 閾値192
