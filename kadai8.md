@@ -10,16 +10,10 @@ imagesc(ORG); colormap(gray); colorbar;  axis image; % 画像の表示
 
 以下のようにして閾値128で二値化を行う
 
-IMG = ORG > 128; % 閾値128で二値化
-imagesc(IMG); colormap(gray); colorbar;  axis image; % 画像の表示
-
 ![画像](https://github.com/ariga11029/lecture_image_processing/blob/master/image/8-2.jpg?raw=true)  
 図2 閾値128で二値化
 
 以下のようにしてイメージ内の連結要素をラベル付けを行う
-
-IMG = bwlabeln(IMG);
-imagesc(IMG); colormap(jet); colorbar;  axis image; % 画像の表示
 
 ![画像](https://github.com/ariga11029/lecture_image_processing/blob/master/image/8-3.jpg?raw=true)
 図3 ラベル
