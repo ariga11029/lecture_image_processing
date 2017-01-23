@@ -1,9 +1,7 @@
 2階調，4階調，8階調での画像の表示を行い，それによる移り変わり，及び階調特性による擬似輪郭を確認する．  
-まず始めに原画像の入力，原画像をグレースケール画像に変換し，表示を行う．
 
 ORG=imread(0.jpg); % 原画像の入力  
-ORG = rgb2gray(ORG); colormap(gray); colorbar; % グレースケール画像へ変換  
-imagesc(ORG); axis image; % 画像の表示  
+
 原画像を読み込み，表示した結果を図１に示す．
 
 ![原画像](https://github.com/ariga11029/lecture_image_processing/blob/master/image/0.jpg?raw=true)  
